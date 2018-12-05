@@ -16,6 +16,7 @@ body{
     font-family: Arial,"Helvetica Neu", Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
+    margin-bottom: 90px;
 }
 
 #titleOfPage{
@@ -23,8 +24,6 @@ body{
     border-bottom: 3px solid #cccccc;
     padding-top: 10px;
     margin-bottom: 20px;
-    
-    
 }
 
 #titleOfPage h1{
@@ -48,6 +47,7 @@ a:first-child{
 
 footer{
     height: 50px;
+    width: 100%;
     clear: both;
     font-size: 12px;
     background-color: #666666;
@@ -56,6 +56,8 @@ footer{
     border-top: 10px solid #4aaaa5;
     padding: 30px 0;
     margin-top: 20px;
+    position: fixed;
+    bottom: 0px;
 }
 
 .mr-3{
